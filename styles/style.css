@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.open-sans-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+
+/* nav items starts */
+
+nav{
+      background-color: #1A0B2E;
+}
+
+.nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+  
+
+}
+
+.nav h2{
+color: white;
+}
+ .wave{
+   
+  background: linear-gradient(to bottom, #F7E93F, #FB09B4,#9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+ } 
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav .nav-items{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.nav ul li a:hover{
+    color: rgb(169, 22, 49);
+}
+
+
+
+.nav .subscribe{
+    color: white;
+    width: 135px;
+    padding: 12px 16px;
+    border-radius: 25px;
+    font-weight: 600;
+background: linear-gradient(to bottom, #F7E93F, #FB09B4,#9100F8);
+  
+
+}
+
+
+ .subscribe:hover{
+    background: linear-gradient(to right, #1936db, #40cb53);
+    font-size: 15px;
+  
+ }
+
+
+
+
+
+
+
