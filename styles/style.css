@@ -271,13 +271,13 @@ border: 2px solid rgb(29, 200, 29);
  .all-ratings{
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
+    
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
     padding-bottom: 120px;
     padding-top: 80px;
-   
+    
  }
 
 
@@ -285,12 +285,14 @@ border: 2px solid rgb(29, 200, 29);
     color: #40cb53;
     font-size: 48px;
     font-weight: 900;
+    text-align: center;
     
   }
 
  .all-ratings h4{
     color: rgba(255, 255, 255, 0.447);
     font-size: 18px;
+    text-align: center;
    
 
  }
