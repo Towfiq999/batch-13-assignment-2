@@ -304,6 +304,242 @@ border: 2px solid rgb(29, 200, 29);
 
 
 
+ /* choose section starts here */
+
+
+ .full-choose{
+   
+  
+    
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background:#230E3D;
+
+
+      display: flex;
+      flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh;  
+
+ }
+
+  .full-choose h2{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 40px;
+    text-align: center;
+
+  }
+
+
+ .all-choose-cards{
+
+
+      max-width: 1200px;
+     display: grid;
+   
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto); 
+  gap: 20px;
+
+   
+  }
+
+
+
+
+
+
+
+  .Premium{
+    
+    border-radius: 25px;
+    background:rgba(40, 10, 93, 0.682);
+    grid-row: span 2;
+    padding: 40px;
+  }
+
+  .Premium:hover{
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+  }
+
+ .Premium h3{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+
+  .Premium p {
+    color: rgba(255, 255, 255, 0.447);
+  }
+
+
+
+
+
+
+ .Mobile{
+        border-radius: 25px;
+    background:rgba(40, 10, 93, 0.682);
+    
+    padding: 40px;
+    grid-column: span 2;
+ }
+
+  .Mobile:hover{
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+  }
+
+
+.Mobile h3{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+
+  .Mobile p {
+    color: rgba(255, 255, 255, 0.447);
+  }
+
+
+
+
+
+
+
+
+
+  
+  .Global{
+    
+    border-radius: 25px;
+    background:rgba(40, 10, 93, 0.682);
+    grid-column: span 2;
+    padding: 40px;
+  }
+
+  .Global:hover{
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+  }
+
+ .Global h3{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+
+  .Global p {
+    color: rgba(255, 255, 255, 0.447);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Exclusive{
+    
+    border-radius: 25px;
+    background:rgba(40, 10, 93, 0.682);
+    grid-column: span 2;
+    padding: 40px;
+  }
+
+  .Exclusive:hover{
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+  }
+
+.Exclusive h3{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+
+  .Exclusive p {
+    color: rgba(255, 255, 255, 0.447);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+     .Rich{
+    
+    border-radius: 25px;
+    background:rgba(40, 10, 93, 0.682);
+   
+    padding: 40px;
+  }
+
+   .Rich:hover{
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+  }
+
+  .Rich h3{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+
+   .Rich p {
+    color: rgba(255, 255, 255, 0.447);
+  }
+
+
+
+
+
+
+
 
 
   /*  mobile responsive starts here */
@@ -402,8 +638,36 @@ margin:0 10% 0 10%;
 
 
 
+/*  choose card section starts here */
+
+
+  .all-choose-cards{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+
+ 
+  }
+
+   
+
+
+
+
+
     
   }
 
 
+
+
+  /* .container p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 
