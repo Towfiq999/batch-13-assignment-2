@@ -13,7 +13,13 @@
 }
 
 
+
+
+
+
 /* nav items starts */
+
+
 
 nav{
       background-color: #1A0B2E;
@@ -86,8 +92,60 @@ border: none;
  }
 
 
+  .nav .hamburger-menu{
+    display: none;
+  }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  mobile responsive starts here */
+
+
+  @media screen and (max-width: 576px) {
+
+
+    /* nav items */
+
+    .nav .subscribe{
+        display: none;
+    }
+
+    .nav ul li a{
+         display: none;
+
+    }
+
+
+    .nav .hamburger-menu{
+    display:block;
+  }
+
+   .nav{
+    padding: 16px 20px;
+   }
+
+
+
+
+
+
+   
+    
+  }
 
 
 
