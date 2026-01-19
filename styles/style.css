@@ -379,7 +379,8 @@ margin:0 10% 0 10%;
     /* about section starts here */
 
     .about p{
-        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .mobile-hide{
