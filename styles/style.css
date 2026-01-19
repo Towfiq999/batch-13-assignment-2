@@ -164,6 +164,9 @@ border: none;
     
   }
 
+
+  
+
   .techWave{
     color: white;
 font-size: 60px;
@@ -266,7 +269,45 @@ border: 2px solid rgb(29, 200, 29);
    }
 
 
+   /* banner part starts here */
 
+
+   .bg{
+   width: 100%;
+  min-height: 560px;
+  
+  
+    
+   }
+
+
+   .img-1 {
+  width: 290px;
+  padding-top: 4%;
+ 
+}
+
+
+
+.img-2 {
+   
+  top: 52%;
+  
+  right: 42%;
+  width: 90px;
+  z-index: 2;
+}
+
+    .badge {
+  top: 38%;
+  right: 28%;
+
+} 
+
+ .techWave-text{
+margin:0 10% 0 10%;
+
+ }
 
 
 
