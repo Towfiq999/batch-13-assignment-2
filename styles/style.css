@@ -23,6 +23,7 @@
 
 nav{
       background-color: #1A0B2E;
+      padding-bottom: 16px;
 }
 
 .nav{
@@ -38,6 +39,7 @@ nav{
 
 .nav h2{
 color: white;
+font-size:xx-large;
 }
  .wave{
    
@@ -68,6 +70,7 @@ color: white;
 
 .nav ul li a:hover{
     color: rgb(169, 22, 49);
+    cursor: pointer;
 }
 
 
@@ -88,6 +91,7 @@ border: none;
  .subscribe:hover{
     background: linear-gradient(to right, #1936db, #40cb53);
     font-size: 15px;
+    cursor: pointer;
   
  }
 
@@ -99,9 +103,129 @@ border: none;
 
 
 
+/* banner section starts here */
+
+  .line {
+  border: none;
+  height: 2px;
+  background-color:rgb(44, 44, 75) ;
+}
 
 
 
+
+
+
+
+.img-box {
+  position: relative;  
+  width: 200px;
+  
+}
+
+.img-1 {
+  width: 400px;
+  display: block;
+  padding-top: 4%;
+  margin: 0 auto;
+}
+
+.img-2 {
+   position: absolute;
+  top: 32%;
+  /* left: 50%; */
+  right: 46%;
+  width: 120px;
+  z-index: 2;
+}
+
+/*  Badge beside 1st image */
+
+ 
+.badge {
+  position: absolute;
+  top: 25%;
+  right: 38%;
+
+  background: rgb(27, 193, 27);
+ 
+  font-size: 20px;
+  padding: 4px 8px;
+  border-radius: 12px;
+
+  z-index: 3;
+} 
+
+  .banner-text-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .techWave{
+    color: white;
+font-size: 60px;
+font-weight: 800;
+
+  }
+
+  .techWave-text{
+    color: rgba(255, 255, 255, 0.447);
+  }
+
+
+
+  .banner-btns{
+    margin-top: 24px;
+  }
+
+
+
+
+  .Listen-on-Spotify{
+     color: white;
+    width: 155px;
+    padding: 10px ;
+    border-radius: 25px;
+    font-weight: 600;
+background: linear-gradient(to bottom, #F7E93F, #FB09B4,#9100F8);
+border: none;
+
+  }
+
+ .Listen-on-Spotify:hover {
+     background: linear-gradient(to right, #1936db, #40cb53);
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+
+  .banner-btns .Subscribe{
+      color: rgb(29, 200, 29);
+    width: 135px;
+    padding: 10px ;
+    border-radius: 25px;
+    font-weight: 600;
+background: transparent;
+border: 2px solid rgb(29, 200, 29);
+
+
+  }
+
+
+  .banner-btns .Subscribe:hover{
+     background: linear-gradient(to right, #1936db, #d82307);
+    font-size: 14px;
+    cursor: pointer;
+
+  }
+
+
+ 
+ 
+ 
 
 
 
@@ -143,7 +267,7 @@ border: none;
 
 
 
-   
+
     
   }
 
