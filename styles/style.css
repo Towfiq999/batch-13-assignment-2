@@ -417,8 +417,6 @@ border: 2px solid rgb(29, 200, 29);
 
 
 
-
-
   
   .Global{
     
@@ -445,15 +443,6 @@ border: 2px solid rgb(29, 200, 29);
   .Global p {
     color: rgba(255, 255, 255, 0.447);
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -496,18 +485,6 @@ border: 2px solid rgb(29, 200, 29);
 
 
 
-
-
-
-
-
-
-
-
-   
-
-
-
      .Rich{
     
     border-radius: 25px;
@@ -533,6 +510,57 @@ border: 2px solid rgb(29, 200, 29);
    .Rich p {
     color: rgba(255, 255, 255, 0.447);
   }
+
+
+
+
+
+
+/* footer section starts here */
+
+
+  .footer-all-items{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+
+ .footer-techwave{
+    font-size: xx-large;
+ }
+
+ .footer-techwave .Tech{
+    color: white;
+ }
+
+ .icon1,.icon2,.icon3,.icon4{
+    display: flex;
+    gap: 10px;
+ }
+
+ .footer-all-icons{
+    display: flex;
+   
+    justify-content: center;
+    gap: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+ .footer-all-icons p{
+     color: rgba(255, 255, 255, 0.447);
+ }
+
+
+ .copyright-text{
+    color: rgba(255, 255, 255, 0.447);
+
+ }
+
 
 
 
@@ -652,6 +680,26 @@ margin:0 10% 0 10%;
   }
 
    
+
+
+
+  /* footer section starts here */
+
+   .footer-all-icons{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    margin: auto;
+  
+  }
+
+ 
+  
+
+  
+
+
 
 
 
