@@ -176,6 +176,7 @@ font-weight: 800;
 
   .techWave-text{
     color: rgba(255, 255, 255, 0.447);
+    text-align: center;
   }
 
 
@@ -256,11 +257,14 @@ border: 2px solid rgb(29, 200, 29);
     font-size: 48px;
     font-weight: 700;
     color: white
+    
+    
   }
 
  .about p{
   color: rgba(255, 255, 255, 0.447);
     font-size: 16px;
+    text-align: center;
  }
 
   .line2{
@@ -277,7 +281,7 @@ border: 2px solid rgb(29, 200, 29);
 
     padding-bottom: 120px;
     padding-top: 80px;
-    
+
  }
 
 
@@ -368,6 +372,31 @@ border: 2px solid rgb(29, 200, 29);
 margin:0 10% 0 10%;
 
  }
+
+
+
+
+    /* about section starts here */
+
+    .about p{
+        padding: 5px;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .all-ratings{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+
+ }
+
+  .line2{
+     max-width: 85%;
+      
+  }
+
 
 
 
