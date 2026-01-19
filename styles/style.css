@@ -230,12 +230,70 @@ border: 2px solid rgb(29, 200, 29);
 
 
  
+
+  /* about section starts here */
+
+
+  .about-container{
+    background-color: #1A0B2E;
+    
+
+  }
+
+  .about   {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-bottom: 80px;
+        padding-top: 50px;
+        
+    }
  
- 
+  .about h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white
+  }
+
+ .about p{
+  color: rgba(255, 255, 255, 0.447);
+    font-size: 16px;
+ }
+
+  .line2{
+     max-width: 1200px;
+       margin: 0 auto;
+  }
+
+ .all-ratings{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 120px;
+    padding-top: 80px;
+   
+ }
 
 
+  .all-ratings h1{
+    color: #40cb53;
+    font-size: 48px;
+    font-weight: 900;
+    
+  }
 
+ .all-ratings h4{
+    color: rgba(255, 255, 255, 0.447);
+    font-size: 18px;
+   
 
+ }
 
 
 
