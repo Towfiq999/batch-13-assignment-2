@@ -98,7 +98,28 @@ background: linear-gradient(to bottom, #F7E93F, #FB09B4,#9100F8);
 border: none;
   
 
+  animation: glow 1.5s infinite ease-in-out;
+
+
 }
+
+
+  @keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #4f46e5;
+  }
+  50% {
+    box-shadow: 0 0 20px #6366f1, 0 0 40px #6366f1;
+  }
+  100% {
+    box-shadow: 0 0 5px #4f46e5;
+  }
+}
+
+
+
+
+
 
 
  .subscribe:hover{
@@ -213,7 +234,17 @@ font-weight: 800;
 background: linear-gradient(to bottom, #F7E93F, #FB09B4,#9100F8);
 border: none;
 
+
+    animation: glow 1.5s infinite ease-in-out;
+
   }
+
+
+
+ 
+
+
+
 
  .Listen-on-Spotify:hover {
      background: linear-gradient(to right, #1936db, #40cb53);
@@ -231,6 +262,8 @@ border: none;
 background: transparent;
 border: 2px solid rgb(29, 200, 29);
 
+
+     animation: glow 1.5s infinite ease-in-out;
 
   }
 
@@ -536,7 +569,7 @@ border: 2px solid rgb(29, 200, 29);
 
 
 
-/*   youtube card section strts here */
+/*   youtube card section starts here */
 
 
 
@@ -690,6 +723,17 @@ border: 2px solid rgb(29, 200, 29);
     border-radius: 25px;
     background:rgba(40, 10, 93, 0.682);
  }
+
+
+
+  .full-host-section:hover{
+
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+
+  }
+
+
 
   .full-host-section h2{
     color: white;
@@ -1022,4 +1066,9 @@ margin:0 10% 0 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+
+
+
+
+
 
