@@ -903,6 +903,52 @@ margin:0 10% 0 10%;
 
 
 
+
+/* youtube videos card starts here */
+
+ .all-video-cards{
+   
+  flex-direction: column;
+  justify-content: center;
+ 
+  width: 326px; 
+  
+  gap: 20px;
+ 
+  }
+
+
+
+
+
+
+
+  
+    .my-card{
+      display: flex;
+      flex-direction: column;
+      
+     
+      background:rgba(40, 10, 93, 0.682);
+      border-radius: 20px;
+      width: 320px;
+      
+    }
+
+
+   .my-card p{
+    text-align: start;
+   }
+
+
+
+
+
+
+
+
+
+
 /*  host section starts here */
 
  .full-host-section-container{
