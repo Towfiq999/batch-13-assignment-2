@@ -232,6 +232,10 @@ border: 2px solid rgb(29, 200, 29);
 
  
 
+
+
+
+
   /* about section starts here */
 
 
@@ -515,6 +519,76 @@ border: 2px solid rgb(29, 200, 29);
 
 
 
+/*   host section starts here    */
+
+
+   .full-host-section-container{
+     background-color: #1A0B2E;
+     padding-top: 120px;
+     padding-bottom: 120px;
+   }
+
+   .full-host-section-container h1{
+    
+     max-width: 1200px;
+     margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+   }
+
+ .full-host-section{
+    
+    display: flex;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 25px;
+    background:rgba(40, 10, 93, 0.682);
+ }
+
+  .full-host-section h2{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+
+
+
+  .full-host-section p {
+    color: rgba(255, 255, 255, 0.447);
+    padding-bottom: 16px;
+  }
+
+
+  .host-icons{
+    
+    display: flex;
+    gap: 20px;
+  }
+
+   /*  .host-icons img{
+        width: 100%;
+        width: cover;
+    }
+ */
+   .host-icon1 , .host-icon2, .host-icon3 , .host-icon4{
+    border:1px solid rgba(255, 255, 255, 0.264) ;
+    padding: 12px;
+   
+    border-radius: 50%;
+
+   }
+
+
+
+
+
+
 
 /* footer section starts here */
 
@@ -619,16 +693,16 @@ border: 2px solid rgb(29, 200, 29);
 
 .img-2 {
    
-  top: 52%;
+  top: 30%;
   
-  right: 42%;
+  right: 40%;
   width: 90px;
   z-index: 2;
 }
 
     .badge {
-  top: 38%;
-  right: 28%;
+  top: 18%;
+  right: 25%;
 
 } 
 
@@ -679,8 +753,46 @@ margin:0 10% 0 10%;
  
   }
 
+  .Premium p,.Exclusive p,.Rich p, .Global p, .Mobile p{
+    text-align: start;
+  }
+
    
 
+
+
+
+/*  host section starts here */
+
+ .full-host-section-container{
+    padding-top: 60px;
+    padding-bottom: 40px;
+ }
+
+ .full-host-section {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    
+ }
+
+  .full-host-section h2, p{
+    text-align: center;
+  }
+
+  .host-icons{
+   
+    justify-content: center;
+    
+  }
+
+  
+
+
+
+
+  
 
 
   /* footer section starts here */
@@ -694,6 +806,11 @@ margin:0 10% 0 10%;
   
   }
 
+
+   .footer-bg{
+    background-position: 10%;
+    background-size: 10%;
+   }
  
   
 
