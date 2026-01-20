@@ -15,6 +15,19 @@
 
 
 
+/* footer */
+
+
+.footer-bg{
+   background-image: url('../B13-A02-TechWave/assets/footer-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
 
 
 /* nav items starts */
@@ -519,6 +532,134 @@ border: 2px solid rgb(29, 200, 29);
 
 
 
+
+
+
+
+/*   youtube card section strts here */
+
+
+
+
+  .all-video-cards-container{
+
+ background-color: #1A0B2E;
+  }
+
+
+  .all-video-cards-container>h1{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+
+
+  .all-video-cards{
+   
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    
+    
+  }
+
+
+
+    .my-card{
+      display: flex;
+      flex-direction: column;
+      
+     
+      background:rgba(40, 10, 93, 0.682);
+      border-radius: 20px;
+      width: 320px;
+      
+
+
+
+    }
+
+
+     .my-card:hover{
+    background:rgba(46, 3, 121, 0.682);
+    cursor: pointer;
+  }
+
+
+
+.card {
+  width: 320px;
+  padding: 16px;  
+  background:rgba(40, 10, 93, 0.682);
+  gap: 12px;
+}
+
+/* Responsive YouTube video */
+
+.video-wrapper {
+  width: 320px;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px 20px 0 0;
+ 
+}
+
+.video-wrapper iframe {
+  width: 320px;
+  border-radius: 20px 20px 0 0;
+  
+  height: 100%;
+ 
+}
+
+.my-card h2 {
+  
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+}
+
+.my-card p {
+ color: rgba(255, 255, 255, 0.447);
+ padding-bottom: 12px;
+ padding-left: 24px;
+  padding-right: 24px;
+}
+
+.extra-text {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  
+  color: rgb(11, 210, 11);
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*   host section starts here    */
 
 
@@ -806,11 +947,11 @@ margin:0 10% 0 10%;
   
   }
 
-
-   .footer-bg{
-    background-position: 10%;
-    background-size: 10%;
-   }
+.footer-bg{
+ 
+    background-size:100% 100%;
+}
+   
  
   
 
